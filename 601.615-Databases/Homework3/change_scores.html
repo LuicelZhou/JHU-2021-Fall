@@ -1,0 +1,36 @@
+<html>
+ <head>
+  <title>Change Scores</title>
+  <link rel="stylesheet" href="./style.css">
+ </head>
+ <body>
+
+ <form action="change_scores.php" method="post">
+<p>
+    <label for="pwd">Password:</label>
+    <input id="pwd" type="text" name="password"><br>
+</p>
+<p>
+    <label for="ssn">SSN:</label>
+    <input id="ssn" type="text" name="ssn"><br>
+</p>
+<p>
+    <label for="assignmentName">Assignment Name:</label>
+    <select name="assignmentName" id="assignmentName">
+        <option value="HW1">HW1</option>
+        <option value="HW2a">HW2a</option>
+        <option value="HW2b">HW2b</option>
+        <option value="Midterm">Midterm</option>
+        <option value="HW3">HW3</option>
+        <option value="FExam">Final Exam</option>
+    </select>
+</p>
+<p>
+    <label for="newScore">New Score:</label>
+    <input id="newScore" type="number" step=0.01 name="newScore"><br>
+</p>
+  <input type="Submit">
+ </form>
+
+ </body>
+</html>
