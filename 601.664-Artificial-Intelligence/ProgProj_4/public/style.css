@@ -1,0 +1,366 @@
+@font-face {
+  font-family:Roboto;
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family:Roboto;
+  src: url("../fonts/Roboto-Italic.ttf");
+  font-style: oblique;
+}
+
+@font-face {
+  font-family:Roboto;
+  src: url("../fonts/Roboto-Bold.ttf");
+  font-weight: bold;
+}
+
+
+html, body {
+  font-family: Roboto;
+  margin: 0 0 0 0 !important;
+  font-size: 11pt;
+  height:100%;
+    line-height: 130%;
+    min-height: 100%;
+}
+
+body {
+  background-color: white;
+}
+/*body {
+  background: url("../images/background.png") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}*/
+
+a {
+    text-decoration: none;
+    color: #2951CC;
+}
+
+div {
+    word-wrap:break-word;
+}
+
+.white {
+  background-color: white;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  width: 100%;
+}
+
+.main-container-transparent {
+  max-width: 1000px;
+  overflow:hidden;
+  margin-right:auto;
+  margin-left:auto;
+  padding: 30px 40px 10px 40px;
+  background-color: rgba(256,256,256,0.9);
+}
+
+.navbar-container {
+  max-width: 1000px;
+  overflow:hidden;
+  margin-right:auto;
+  margin-left:auto;
+  padding: 30px 40px 10px 40px;
+}
+
+.main-container {
+  max-width: 1000px;
+  overflow:hidden;
+  margin-right:auto;
+  margin-left:auto;
+  padding: 30px 40px 10px 40px;
+  background-color: rgba(256,256,256,1.0);
+}
+/* #8C0031 would be to use old 170 colors
+/*.navbar-container {
+    background-color: #8C0031;
+}*/
+
+.navbar-brand {
+    padding-left:0;
+    margin-left:0 !important;
+    font-size: 19pt;
+    vertical-align: middle;
+}
+
+#navbar{
+  height: 100px;
+}
+
+.navbar-container {
+    padding: 5px 40px 5px 40px;
+}
+
+.navbar-toggle {
+    margin-right: 0 !important;
+}
+.navbar-nav > li{
+  margin-left: 0.5px;
+  margin-right: px;
+}
+nav.navbar {
+    /*background: white;*/
+    font-size: 19px;
+    background-color: #CFCBD4;
+  /*background: #8C0031;*/
+}
+
+.content {
+  padding:30px 30px 10px 30px;
+}
+
+.span3 {
+  width: 100%;
+  padding: 10px 0 10px 0;
+}
+
+.span2 {
+  width:65%;
+  float:left;
+  padding: 10px 50px 10px 0;
+}
+
+.span2-nopad {
+  width:70.5%;
+  float:left;
+  padding: 10px 0 10px 0;
+}
+
+.span1 {
+  width: 29%;
+  float:left;
+  padding: 10px 0 10px 0;
+}
+
+h1 {
+  font-size: 18pt;
+  margin: 0 0 0 0;
+    line-height:140%;
+}
+
+h2 {
+  font-size: 15pt;
+  font-weight: bold;
+  margin: 0 0 0 0;
+    line-height:140%;
+    padding-bottom:10px;
+}
+
+h3 {
+  font-size: 13pt;
+  margin: 0 0 0 0;
+  font-weight: bold;
+    line-height:130%;
+    padding-top:10px;
+}
+
+body {
+  padding-top: 55px;
+  position: relative;
+}
+
+p {
+    margin: 20px;
+}
+
+a.anchor{display: block; position: relative; top: -85px; visibility: hidden;}
+
+.row {
+    padding: 0 15px 30px 15px;
+}
+
+.center {
+    text-align: center;
+}
+
+.table-striped tbody tr:nth-of-type(4n+1) {
+    background-color: rgba(240, 240, 240, 0.5) !important;
+}
+
+.table-striped tbody tr:nth-of-type(4n+2) {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.table-hover tbody:hover {
+    background-color: rgba(133, 230, 133, 0.15) !important;
+}
+
+img.headshot {
+    width:70%;
+    margin-bottom:10px;
+    opacity: 0.9;
+    transition: opacity .3s ease-in-out;
+    -moz-transition: opacity .3s ease-in-out;
+    -webkit-transition: opacity .3s ease-in-out;
+    vertical-align: top;
+}
+img.headshot:hover {
+    opacity: 1.0;
+    transition: opacity .3s ease-in-out;
+    -moz-transition: opacity .3s ease-in-out;
+    -webkit-transition: opacity .3s ease-in-out;
+}
+
+.bottomspace {
+    margin-bottom: 20px;
+}
+
+.scrollable { overflow: auto; white-space: nowrap;}
+
+.grade-scale {
+    padding: 4px 15px;
+}
+.grade-table {
+    border: 1px solid black;
+    margin: 5px 0px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+.discussion {
+    margin: 20px 0;
+    width: 100%;
+}
+
+.discussion th {
+    text-align: center;
+}
+
+.discussion td {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    text-align: center;
+    min-width: 80px;
+    padding: 0 10px;
+}
+
+.odd {
+    /*background-color: #DDD;*/
+    background-color: rgba(240, 240, 240, 0.5)
+}
+
+.instructor {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.instructor td {
+    width: 325px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    vertical-align: middle;
+}
+.instructor, .instructor tr, .instructor td  {
+    border: 1px solid #FFF;
+}
+.staff {
+    table-layout: fixed;
+    margin 20px auto;
+}
+.staff td {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    vertical-align: top;
+    width: 33.33%;
+    padding: 10px;
+}
+/*.staff tbody tr {
+  background-color: rgba(240, 240, 240, 0.5) !important;
+}*/
+.staff, .staff tr, .staff td {
+    border: 1px solid #FFF;
+    border-collapse: collapse;
+    table-layout: fixed;
+    vertical-align: top;
+    vertical-align: text-top;
+}
+
+.staff td img {
+    height: 180px;
+    width: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.instructor img {
+    height: 250px;
+    width: 250px;
+}
+
+.staff {
+    max-width: 900px;
+}
+
+.segmenttitle {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding: 10px 10xp 0;
+}
+
+td > .text.email {
+    font-weight: 300;
+    font-size: 15px;
+    padding-bottom: 5px
+}
+
+td > .text.bio {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 2px 0 4px;
+}
+
+
+/* Added by Aditya */
+
+hr {
+  border: none;
+  height: 3px;
+  color: gray;
+  background-color: gray;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  border-radius: 5px;
+}
+
+
+/* for inserting cs188_bot image */
+.container {
+    margin: auto;
+}
+.first {
+    float: left;
+}
+.second {
+    float: left;
+    margin: 0 0 0 30px;
+}
+
+#grades td {
+  padding: 0 0 0 20px;
+  /*text-align: center; */
+  /*vertical-align: middle;*/
+}
+
+span.function {
+    color: #333366;
+    font-family: Monaco, Consolas, "Lucida Console", "Courier New", monospace;
+}
+
+/* Added for project 5 */
+.project td, .project th {
+    padding: 0 10px 0 10px;
+}
